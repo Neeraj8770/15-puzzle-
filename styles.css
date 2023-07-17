@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+    display: grid;
+  }
+  
+  body {
+    margin: auto;
+    /* background-color: #0e0e0d; */
+    background-image: url("https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    font-family: Georgia;
+  }
+  
+  #board {
+    display: inline-block;
+    /* background-image: url("https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    padding: 10px;
+    box-shadow: 10px 20px #0b0b0b;
+    border: 5px solid rgb(131, 102, 102);
+    border-radius: 15px;
+  }
+  #display {
+    margin-left: 0px;
+    float: right;
+  }
+  
+  #menu {
+    display: grid;
+    font-size: 15pt;
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-right: 0px;
+    box-sizing: border-box;
+  }
+  
+
+  #menu p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  
+  #menu input, #menu button {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #content {
+    margin: auto;
+    width: 450px;
+  }
